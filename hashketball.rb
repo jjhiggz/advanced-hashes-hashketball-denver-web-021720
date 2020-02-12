@@ -33,6 +33,7 @@ playersAway = {
 
 secondHashAway={:team_name =>'Charlotte Hornets' ,:colors=>['Turquoise','Purple'] , :players => playersAway}
 top_level = {:home => secondHashHome, :away => secondHashAway}
+pp top_level
 return top_level
 end
 def homeOrAway(player)
